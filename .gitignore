@@ -1,0 +1,25 @@
+# caches
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+
+# editor backup artifacts
+*.bak
+.openscience-approved-*
+
+# logs
+*.log
+
+# regenerable run state / intermediates
+*.ckpt
+viz_ranges.json
+viz_hist_wide.res
+turtle_viz.dat
+
+# generated viz outputs (regenerate: python -m turtle2py.viz <input.dat>)
+*.html
+*_viz/
+viz_hist.res
+viz_card_ranges.json
+full_py.res
